@@ -1,0 +1,37 @@
+{
+  "name": "wikitranslate-website",
+  "version": "0.0.2",
+  "description": "Wikipedia translation as a service",
+  "author": "n6g7 <n6g7@gnab.fr>",
+  "main": "",
+  "scripts": {
+    "pretest": "eslint ./",
+    "start": "node server/index.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "api",
+    "wiki",
+    "wikipedia",
+    "translate",
+    "translation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:wikitranslate/wt-website.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^1.2.0",
+    "koa-mount": "^1.3.0",
+    "koa-static": "^2.0.0",
+    "wikitranslate-api": "0.0.1",
+    "wikitranslate-client": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "eslint": "^2.5.1",
+    "mocha": "^2.4.5"
+  }
+}
