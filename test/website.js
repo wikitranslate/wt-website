@@ -1,14 +1,12 @@
-'use strict';
-
-let chai = require('chai');
-let server = require('../server');
+const chai = require('chai');
+const server = require('../server');
 
 chai.use(require('chai-http'));
 
-let expect = chai.expect;
+const expect = chai.expect;
 
 describe('Website', function () {
-  // Wikipedia API is somtimes a bit picky.
+  // Wikipedia API is sometimes a bit picky.
   this.timeout(5000);
 
   it('gives access to the API', () => {

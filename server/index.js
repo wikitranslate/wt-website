@@ -1,11 +1,9 @@
-'use strict';
+const koa = require('koa');
+const koaMount = require('koa-mount');
+const koaStatic = require('koa-static');
+const wtApi = require('wikitranslate-api');
 
-let koa = require('koa');
-let koaMount = require('koa-mount');
-let koaStatic = require('koa-static');
-let wtApi = require('wikitranslate-api');
-
-let app = koa();
+const app = koa();
 
 app.use(koaStatic('./node_modules/wikitranslate-client/dist'));
 
