@@ -1,3 +1,3 @@
 # WikiTranslate Website
 
-As seen on https://wiki-translate.herokuapp.com/.
+As seen on https://translate.gnab.fr/.
